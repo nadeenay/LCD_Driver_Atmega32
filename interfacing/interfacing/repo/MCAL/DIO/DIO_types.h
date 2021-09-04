@@ -7,10 +7,21 @@
 typedef enum {PORTA_,PORTB_,PORTC_,PORTD_}DIO_PORT;
 	
 typedef enum {INPUT,OUTPUT}DIO_DIRECTION;
-	
-typedef enum {LOW,HIGH}VALUE;
-	
-typedef enum {PIN0,PIN1,PIN2,PIN3,PIN4,PIN5,PIN6,PIN7}PIN_NUM;
+
+/* PIN VAlUE */	
+#define LOW 0
+#define HIGH 1
+
+/*  PINS */
+#define PIN0 0
+#define PIN1 1
+#define PIN2 2
+#define PIN3 3
+#define PIN4 4
+#define PIN5 5
+#define PIN6 6
+#define PIN7 7
+
 	
 #define u8 unsigned char
 	
